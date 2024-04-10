@@ -6,9 +6,9 @@ import (
 )
 
 func TestCountBytes(t *testing.T) {
-  b := bytes.NewBufferString("word1word2word3word4word5word6")
+  b := bytes.NewBufferString("word1")
 
-  expected := 4
+  expected := 5
 
   res := count(b, false, true)
 
