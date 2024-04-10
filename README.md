@@ -21,3 +21,8 @@ echo "line1\nline2" | go run main.go -b
 ```bash
 go run main.go -f "file"
 ```
+
+- Count from several files
+```bash
+go run main.go -file "file1" -file "file2"
+```
